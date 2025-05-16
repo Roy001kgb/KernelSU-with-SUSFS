@@ -52,8 +52,8 @@ jobs:
       - name: Setup kernel source
         uses: actions/checkout@v4
         with:
-          repository: microsoft/WSA-Linux-Kernel
-          ref: android-lts/latte-2/${{ inputs.version }}
+          repository: Roy001kgb/WSA-Linux-Kernel
+        
           path: WSA-Linux-Kernel
 
       - name: Setup Ccache
